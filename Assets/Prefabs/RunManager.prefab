@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6065191587274543672
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8757973698123444895}
+  - component: {fileID: 4026369328890127172}
+  - component: {fileID: 4770662152441020768}
+  - component: {fileID: 2898743246898884063}
+  m_Layer: 0
+  m_Name: RunManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8757973698123444895
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6065191587274543672}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.96332, y: 3.5397406, z: 3991.628}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4026369328890127172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6065191587274543672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e4a9f2290d0ab84a8552da72cbb2512, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardsList:
+  - {fileID: 11400000, guid: 015ba03832f8a4d4bad4995498dd4484, type: 2}
+  - {fileID: 11400000, guid: 914861066f3a251498e69b5aa2fd97fc, type: 2}
+  - {fileID: 11400000, guid: 3f45016abdf765b42993e9f95f6446ee, type: 2}
+  - {fileID: 11400000, guid: 46619335dc3f8ce44be873bb0fe07084, type: 2}
+  - {fileID: 11400000, guid: d1146382171ca4347aeda238ba57186f, type: 2}
+  - {fileID: 11400000, guid: 620b053e57dbfb44197bfb9059514c77, type: 2}
+  - {fileID: 11400000, guid: 065fb604c0e0f7843ac65218fcddced8, type: 2}
+  initialCards:
+  - {fileID: 11400000, guid: 015ba03832f8a4d4bad4995498dd4484, type: 2}
+  - {fileID: 11400000, guid: 914861066f3a251498e69b5aa2fd97fc, type: 2}
+  commonCards:
+  - {fileID: 11400000, guid: 3f45016abdf765b42993e9f95f6446ee, type: 2}
+  - {fileID: 11400000, guid: 914861066f3a251498e69b5aa2fd97fc, type: 2}
+  - {fileID: 11400000, guid: 46619335dc3f8ce44be873bb0fe07084, type: 2}
+  specialCards:
+  - {fileID: 11400000, guid: d1146382171ca4347aeda238ba57186f, type: 2}
+  - {fileID: 11400000, guid: 065fb604c0e0f7843ac65218fcddced8, type: 2}
+  - {fileID: 11400000, guid: 620b053e57dbfb44197bfb9059514c77, type: 2}
+  epicCards: []
+  legendaryCards: []
+  initialDeck:
+  - {fileID: 11400000, guid: 015ba03832f8a4d4bad4995498dd4484, type: 2}
+  - {fileID: 11400000, guid: 015ba03832f8a4d4bad4995498dd4484, type: 2}
+  - {fileID: 11400000, guid: 914861066f3a251498e69b5aa2fd97fc, type: 2}
+  - {fileID: 11400000, guid: 914861066f3a251498e69b5aa2fd97fc, type: 2}
+  - {fileID: 11400000, guid: 3f45016abdf765b42993e9f95f6446ee, type: 2}
+  - {fileID: 11400000, guid: 065fb604c0e0f7843ac65218fcddced8, type: 2}
+  - {fileID: 11400000, guid: 620b053e57dbfb44197bfb9059514c77, type: 2}
+  - {fileID: 11400000, guid: d1146382171ca4347aeda238ba57186f, type: 2}
+  - {fileID: 11400000, guid: 3f45016abdf765b42993e9f95f6446ee, type: 2}
+  - {fileID: 11400000, guid: 46619335dc3f8ce44be873bb0fe07084, type: 2}
+  deckList: []
+--- !u!114 &4770662152441020768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6065191587274543672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d9ceb16fd60291418eba94d73961755, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  energy: 4
+  cardsHurt: 5
+  shieldAtTurnBegin: 0
+  maxHP: 75
+  currentHP: 0
+  enemy11Prefabs:
+  - {fileID: 8308664567924077586, guid: 0ff782c2c33d1ab4783170ec59545134, type: 3}
+  - {fileID: 8308664567924077586, guid: 6fe4156a8b6552442bd551b5dcb42359, type: 3}
+  - {fileID: 4385235352447549336, guid: ed331c8f79f41f44bb000443e21eec3f, type: 3}
+  - {fileID: 3467148566559847665, guid: abca7e7675addff49938011a781be21e, type: 3}
+  - {fileID: 5316094982858471458, guid: d73ffb3e5d7079b4c848c795244cbebd, type: 3}
+  - {fileID: 9112495693490712112, guid: 0b060e7961cf16543b17fb92c7044d9f, type: 3}
+  - {fileID: 1260842011127918748, guid: 4a86a8e67740fab499c10e93ea6da695, type: 3}
+  - {fileID: 4167006512859897173, guid: 5b87e2d4307d13146844e1a131cf45e8, type: 3}
+  enemy12Prefabs:
+  - {fileID: 8308664567924077586, guid: b90860763356cc04d98dc43bc4f3aa93, type: 3}
+  - {fileID: 8308664567924077586, guid: a41100df9ace76e41b6094b310a99c34, type: 3}
+  - {fileID: 8989099655876522124, guid: 4a070f59a11ad104ab3073840f78c5fd, type: 3}
+  - {fileID: 7649992237196402967, guid: 5d8f34714ef9989469ec30c3142c6744, type: 3}
+  - {fileID: 1529374437293264975, guid: 6cedaf764fef74a4f800e6f1b8991079, type: 3}
+  - {fileID: 2630791359149944171, guid: cd946b0cbba9e6a469b413e726a704a9, type: 3}
+  boss1Prefab: {fileID: 8308664567924077586, guid: d155088b049bd2844b734299730c4355, type: 3}
+  carta: {fileID: 2663773772165031592, guid: 325b8fb6ae79620409743a0bfa69a761, type: 3}
+  actualEnemies: []
+  scrollScene: 
+  restScene: Rest
+  finalBoss: {fileID: 8308664567924077586, guid: d155088b049bd2844b734299730c4355, type: 3}
+  actualFloor: 0
+  actualStage: 0
+  deckManager: {fileID: 0}
+  soundManager: {fileID: 0}
+--- !u!114 &2898743246898884063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6065191587274543672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50ff8e6d5b3cbd241ab9d362bb59ec7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

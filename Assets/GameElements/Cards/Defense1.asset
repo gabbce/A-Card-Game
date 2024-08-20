@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a66c0266b3654949ade5660d1c2beee, type: 3}
+  m_Name: Defense1
+  m_EditorClassIdentifier: 
+  cardName: Shield
+  type: Ability
+  description: Grants 5 shield points
+  energy: 1
+  attack: 0
+  shield: 5
+  needTarget: 0
+  burnAtUse: 0
+  specialActions: []
+  specialActionsValue: 
+  artwork: {fileID: 21300000, guid: c46d83f2b73aaa141bd5015819342d81, type: 3}
